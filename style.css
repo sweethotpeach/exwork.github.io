@@ -1,0 +1,275 @@
+@font-face {
+    font-family: "Fulbo Argenta";
+    src: url(fonts/19847.otf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Fulbo Argenta";
+}
+
+header {
+    display: flex;
+    padding: 20px 40px;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 60px;
+}
+
+.phoneNumber {
+    display: flex;
+}
+
+.phoneNumber a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    background-color: #2896E0;
+    border-radius: 5px;
+}
+
+.phoneNumber p {
+    padding: 10px;
+    font-size: 20px;
+}
+
+h1 {
+    margin-left: 150px;
+}
+
+.tagline {
+    background-image: url(images/Горящие\ туры.jpg);
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    padding: 230px 250px;
+    text-align: center;
+}
+
+.taglineHeader {
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.taglineBtn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #2896E0;
+    width: 250px;
+    margin: 0 auto;
+}
+
+.tourFeatures {
+    display: flex;
+    padding: 100px 150px;
+    color: rgb(97, 97, 97);
+}
+
+.imgContainer {
+    border: 2px solid #7c8ca796;
+    border-radius: 50%;
+    padding: 40px;
+}
+
+.imgContainer img {
+    width: 170px;
+}
+
+.tourFeatures p {
+    padding: 30px 40px;
+}
+
+
+.tour {
+    color: #fff;
+    padding: 70px 150px;
+}
+
+.Vietnam {
+    background-color: #2896e0b0;
+}
+
+.tourHeaderLeft {
+    font-size: 40px;
+    margin-bottom: 60px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.719);
+}
+
+.itemContainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.item {
+    text-align: center;
+    padding: 10px 50px;
+}
+
+.item:nth-child(2) {
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+}
+
+.item img {
+    margin-bottom: 20px;
+}
+
+.Indonesia {
+    background-color: #03c03ccc;
+}
+
+.tourHeaderRight {
+    font-size: 40px;
+    margin-bottom: 60px;
+    text-align: right;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.719);
+}
+
+.China {
+    background-color: #ffbe55e0;
+}
+
+.Russia {
+    background-color: #f26065e7;
+}
+
+.Section {
+    padding: 70px 150px;
+    text-align: center;
+    background-color: rgb(233, 233, 233);
+    border-bottom: 3px solid rgba(77, 77, 77, 0.658);
+}
+
+.SectionHeader {
+    font-size: 40px;
+    margin-bottom: 50px;
+    color: rgb(97, 97, 97);
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.icon {
+    width: 150px;
+}
+
+.consultBox:nth-child(3) img {
+    margin-bottom: 45px;
+}
+
+.consultBox:nth-child(3) {
+    padding-top: 30px;
+}
+
+.consultBox p {
+    color: rgb(119, 119, 119);
+}
+
+.range {
+    width: 90px;
+}
+
+.block {
+    width: 90px;
+}
+
+.textAling {
+    text-align: left;
+}
+
+.bottomChild .textAling {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.flex .textAling {
+    padding-top: 40px;
+    padding-left: 15px;
+}
+
+.reviewSection {
+    padding: 50px 50px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.reviewContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.review {
+    background-color: #ffb032cc;
+    margin: 30px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.review h2 {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #fff;
+}
+
+.review p {
+    font-size: 15px;
+}
+
+.second {
+    background-image: url(images/Туры_в_Крым.jpg);
+}
+
+.secondHeader {
+    margin-bottom: 0;
+    margin-top: 40px;
+}
+
+.plus {
+    width: 80px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+
+.tourAdvantage {
+    text-align: left;
+    padding: 70px 150px;
+}
+
+li {
+    color: rgb(97, 97, 97);
+}
+
+li h2 {
+    color: rgb(46, 46, 46);;
+}
+
+ul {
+    padding-bottom: 40px;
+    border-bottom: 1px solid rgb(172, 172, 172);
+}
+
+footer {
+    text-align: center;
+	color: rgb(49, 49, 49);
+	background-color: rgb(209, 209, 209);
+	padding: 10px;
+}
+
+.up {
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+}
+
+.up img {
+    width: 60px;
+}
